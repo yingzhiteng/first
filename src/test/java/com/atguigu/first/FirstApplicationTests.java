@@ -15,6 +15,8 @@ class FirstApplicationTests {
     UserMapper userMapper;
     @Test
     void contextLoads() {
+        String a = "1";
+        System.out.println(a);
         List<User> users = userMapper.selectList(null);
         System.out.println(users);
     }
