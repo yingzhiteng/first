@@ -1,5 +1,5 @@
 package com.atguigu.first.entity;
 
 public class Temp {
-    private String name;
+    private String age;
 }
